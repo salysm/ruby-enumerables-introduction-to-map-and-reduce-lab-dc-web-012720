@@ -45,7 +45,7 @@ end
 def reduce_to_all_true(array_of_values)
   theTruthy = true
   array_of_values.each do |myElement|
-    theTruthy = myElement ?
+    theTruthy = !myElement ? false
   end
   theTruthy
 end
