@@ -31,5 +31,5 @@ def reduce_to_total(array_of_numbers)
   array_of_numbers.each do |myElement|
     myTotal = myTotal + myElement
   end
-  myNewArray
+  myTotal
 end
