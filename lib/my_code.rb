@@ -32,6 +32,7 @@ def reduce_to_total(array_of_numbers)
     myTotal = myTotal + myElement
   end
   myTotal
+  puts myTotal
 end
 
 def reduce_to_total(array_of_numbers, startingPoint)
