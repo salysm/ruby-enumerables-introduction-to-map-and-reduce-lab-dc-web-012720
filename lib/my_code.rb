@@ -43,9 +43,11 @@ def reduce_to_total(array_of_numbers, startingPoint)
 end
 
 def reduce_to_all_true(array_of_values)
-  myTotal = startingPoint
-  array_of_numbers.each do |myElement|
-    myTotal = myTotal + myElement
+  theTruthy = true;
+  array_of_values.each do |myElement|
+    if(!myElement){
+      theTruthy = false
+    }
   end
-  myTotal
+  theTruthy
 end
