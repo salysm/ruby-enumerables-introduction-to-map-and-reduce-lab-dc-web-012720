@@ -26,10 +26,10 @@ def map_to_square(array_of_numbers)
   myNewArray
 end
 
-def map_to_square(array_of_numbers)
-  myNewArray = []
+def reduce_to_total(array_of_numbers)
+  myTotal = 0
   array_of_numbers.each do |myElement|
-    myNewArray.push(myElement * myElement)
+    myTotal = myTotal + myElement
   end
   myNewArray
 end
