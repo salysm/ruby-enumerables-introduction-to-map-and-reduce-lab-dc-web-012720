@@ -43,7 +43,7 @@ def reduce_to_total(array_of_numbers, startingPoint)
 end
 
 def reduce_to_all_true(array_of_values)
-  theTruthy = true;
+  theTruthy = true
   array_of_values.each do |myElement|
     if(!myElement){
       theTruthy = false
