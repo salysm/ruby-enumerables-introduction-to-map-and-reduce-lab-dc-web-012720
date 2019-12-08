@@ -27,7 +27,7 @@ def map_to_square(array_of_numbers)
 end
 
 def reduce_to_total(array_of_numbers, startingPoint)
-  puts startingPoint
+  puts "HERERERERE " + startingPoint
   myTotal = startingPoint ? startingPoint : 0
   array_of_numbers.each do |myElement|
     myTotal = myTotal + myElement
