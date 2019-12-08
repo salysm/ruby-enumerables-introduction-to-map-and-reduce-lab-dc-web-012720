@@ -50,3 +50,11 @@ def reduce_to_all_true(array_of_values)
   end
   theTruthy
 end
+
+def reduce_to_any_true(array_of_values)
+  theTruthy = false
+  array_of_values.each do |myElement|
+    theTruthy = myElement ? true : theTruthy
+  end
+  theTruthy
+end
