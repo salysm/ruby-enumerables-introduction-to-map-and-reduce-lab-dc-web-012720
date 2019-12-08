@@ -1,3 +1,7 @@
 def map_to_negativize(array_of_numbers)
-  
+  myNewArray = []
+  array_of_numbers.each do |myElement|
+    myNewArray.push(myElement * -1)
+  end
+  myNewArray
 end
