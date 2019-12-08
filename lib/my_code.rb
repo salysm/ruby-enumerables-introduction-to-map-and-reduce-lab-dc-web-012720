@@ -41,3 +41,11 @@ def reduce_to_total(array_of_numbers, startingPoint)
   end
   myTotal
 end
+
+def reduce_to_total(array_of_numbers, startingPoint)
+  myTotal = startingPoint
+  array_of_numbers.each do |myElement|
+    myTotal = myTotal + myElement
+  end
+  myTotal
+end
