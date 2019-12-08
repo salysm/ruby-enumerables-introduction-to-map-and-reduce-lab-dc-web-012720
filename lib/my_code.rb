@@ -42,7 +42,7 @@ def reduce_to_total(array_of_numbers, startingPoint)
   myTotal
 end
 
-def reduce_to_all_true(array_of_numbers, startingPoint)
+def reduce_to_all_true(array_of_values)
   myTotal = startingPoint
   array_of_numbers.each do |myElement|
     myTotal = myTotal + myElement
