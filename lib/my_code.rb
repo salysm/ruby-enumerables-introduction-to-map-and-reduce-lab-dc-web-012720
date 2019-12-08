@@ -34,7 +34,7 @@ def reduce_to_total(array_of_numbers)
   myTotal
 end
 
-def reduce_to_total(array_of_numbers)
+def reduce_to_total(array_of_numbers, startingPoint)
   myTotal = 0
   array_of_numbers.each do |myElement|
     myTotal = myTotal + myElement
